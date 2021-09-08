@@ -42,5 +42,10 @@ public class LinkListAnalyse {
 //        size--;//数量--
 //        modCount++;//操作次数++
 //        return element;//返回这个被删除的元素
+        //remove删除指定节点
+        System.out.println("linkedList.remove() = " + linkedList.remove(2));
+        //修改指定节点
+        System.out.println("linkedList.set(5, \"lixuan\") = " + linkedList.set(5, "lixuan"));
+        System.out.println(linkedList);
     }
 }
