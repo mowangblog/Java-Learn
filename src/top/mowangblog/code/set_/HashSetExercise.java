@@ -16,9 +16,14 @@ public class HashSetExercise {
         //当person类名字和age相同时认为是同一个对象，不能重复添加到hashSet
         //重写hashcode和equals实现
         HashSet hashSet = new HashSet();
-        hashSet.add(new Person("李煊",20));
+        Person p1 = new Person("李煊", 20);
+        hashSet.add(p1);
+        p1.setName("mowang");
+        hashSet.remove(p1);//修改过name之后hash不同不能移除
         hashSet.add(new Person("魔王",20));
         hashSet.add(new Person("李煊",20));
+        hashSet.add(new Person("李煊",30));
+
         System.out.println(hashSet);
     }
 }
