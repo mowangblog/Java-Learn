@@ -10,6 +10,10 @@ package top.mowangblog.code.oop.work;
 public class Person {
     private String name;
     private String sex;
+
+    public Person() {
+    }
+
     private int age;
 
     public String getName() {

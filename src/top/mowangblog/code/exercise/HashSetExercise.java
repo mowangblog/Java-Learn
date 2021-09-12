@@ -1,6 +1,5 @@
 package top.mowangblog.code.exercise;
 
-import top.mowangblog.code.oop.work.Person;
 
 import java.util.HashSet;
 import java.util.Objects;
