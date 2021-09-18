@@ -1,7 +1,6 @@
-package top.mowangblog.code.outputstream_;
+package top.mowangblog.code.io.outputstream_;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 

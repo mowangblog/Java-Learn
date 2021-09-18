@@ -1,9 +1,8 @@
-package top.mowangblog.code.inputstream_;
+package top.mowangblog.code.io.inputstream_;
 
 import org.junit.Test;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 /**

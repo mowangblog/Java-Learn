@@ -1,4 +1,4 @@
-package top.mowangblog.code.writer_;
+package top.mowangblog.code.io.writer_;
 
 import org.junit.Test;
 

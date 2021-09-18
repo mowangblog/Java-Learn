@@ -1,8 +1,7 @@
-package top.mowangblog.code.reader_;
+package top.mowangblog.code.io.reader_;
 
 import org.junit.Test;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 

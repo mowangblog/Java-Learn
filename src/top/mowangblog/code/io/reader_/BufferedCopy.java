@@ -1,4 +1,4 @@
-package top.mowangblog.code.reader_;
+package top.mowangblog.code.io.reader_;
 
 import java.io.*;
 

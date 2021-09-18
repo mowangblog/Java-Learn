@@ -1,4 +1,4 @@
-package top.mowangblog.code.inputstream_;
+package top.mowangblog.code.io.inputstream_;
 
 import java.io.*;
 
