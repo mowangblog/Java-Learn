@@ -66,7 +66,5 @@ public class ClassDemo {
         for (Annotation annotation : annotations) {
             System.out.println(annotation);
         }
-
-        //获得所有构造方法，接口省略
     }
 }
