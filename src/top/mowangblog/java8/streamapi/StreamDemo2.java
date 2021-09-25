@@ -153,8 +153,5 @@ public class StreamDemo2 {
         Set<Employee> collect1 = employeeList.stream().
                 filter(employee -> employee.getSalary() > 6000).collect(Collectors.toSet());
         collect1.forEach(System.out::println);
-
-        //求出所有员工薪资的总和
-
     }
 }
