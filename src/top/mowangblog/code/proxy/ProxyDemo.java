@@ -9,14 +9,18 @@ package top.mowangblog.code.proxy;
  **/
 public class ProxyDemo {
     public static void main(String[] args) {
-        Factory proxyInstance = ((Factory) FactoryProxy.getProxyInstance(new ToolFactory()));
+        ToolFactory toolFactory = new ToolFactory();
+        Factory proxyInstance = ((Factory) FactoryProxy.getProxyInstance(toolFactory));
         proxyInstance.makeGoods();
         proxyInstance.returnGoods();
+        System.out.println(proxyInstance.getClass());
+        System.out.println(toolFactory.getClass());
 
         //根据传入的被代理类的不同生成不同的代理类
         Factory proxyInstance2 = ((Factory) FactoryProxy.getProxyInstance(new ClothFactory()));
         proxyInstance2.makeGoods();
         proxyInstance2.returnGoods();
+        System.out.println(proxyInstance2.getClass());
     }
 }
 
